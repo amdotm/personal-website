@@ -1,0 +1,230 @@
+@media only screen and (max-width: 990px) {
+		.header-top{
+			display: none;
+		}
+	    .about-item {
+		    width: 100%;
+		    float: none;
+		}
+		.service-item {
+		    width: 50%;
+		}
+		.process-item {
+			width: 50%;
+		}
+
+		.foter-item{
+			width: 50%;
+			float: left;
+			margin: 20px 0px;
+		}
+
+		.contact-item1{
+			width: 50%;
+		}
+
+		.contact-item2{
+			width: 50%;
+		}
+}
+
+
+@media only screen and (max-width: 990px){
+	.footer-inner{
+		padding: 0 10px;
+	}
+
+	.comments{
+		max-width: 650px;
+	}
+
+	.nav-menu{
+		float: none;
+		text-align: center;
+	}
+
+	.nav-header{
+	 	padding: 5px 30px;
+	}
+
+	.text h1 {
+    	font-size: 42px;
+    }
+
+    .blog-item{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+
+	.header-section{
+		background-color: rgba(0,0,0,.5);
+	}
+
+
+	.toggle{
+		display: block;
+	}
+
+	.nav-menu{
+		width: 100%;
+		display: none;
+	}
+
+	.nav-menu li{
+		display: block;
+		text-align: center;
+	}
+
+	.nav-menu li a{
+		border: none;
+	}
+
+	.nav-menu li a:hover{
+		border: none;
+	}
+
+	.nav-menu li a:focus{
+		border: none;
+	}
+
+	.active1{
+		display: block;
+	}
+
+	.pricing-item{
+		width: 50%;
+	}
+}
+	
+
+@media only screen and (max-width: 640px){
+	.text h1 {
+    	font-size: 30px;
+	}
+
+	.text h5 {
+	    font-size: 18px;
+	    padding-bottom: 10px;
+	}
+
+	.service-inner h4 {
+    	font-size: 20px;
+	}
+
+	.comments {
+    	max-width: 520px;
+	}
+
+	.adress-icon i {
+	    height: 22px;
+	    width: 22px;
+	    text-align: center;
+	    color: #85af4d;
+	    line-height: 22px;
+	    font-size: 12px;
+	    border-radius: 50%;
+	    border: 1px solid #636667;
+	    cursor: pointer;
+	}
+
+	.adress-detail p {
+	    padding: 0px;
+	    font-size: 14px;
+	}
+
+	.adress-detail a {
+	    padding: 0px;
+	    font-size: 14px;
+	}
+
+	.contact-item1 {
+    	width: 100%;
+	}
+
+	.contact-item2 {
+    	width: 100%;
+	}
+
+	.controler{
+		display: none;
+	}
+
+	.blog-item{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.slider-section{
+		display: none;
+	}
+	.section-title h2 {
+	    position: relative;
+	    padding: 15px;
+	    font-size: 24px;
+	}
+
+	.service-item {
+	    width: 100%;
+	}
+
+	.process-item {
+	    width: 100%;
+	    padding: 0 40px;
+	}
+
+	.comments{
+		max-width: 350px;
+	}
+
+	.foter-item {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	    margin: 20px 0px;
+	}
+
+	.text h1 {
+	    font-size: 24px;
+	}
+
+	.text h5 {
+	    font-size: 14px;
+	    padding-bottom: 0px;
+	}
+
+	.service-inner p {
+	    text-align: center;
+	}
+
+	.about-item {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	}
+
+	.adress-icon1 {
+	    float: none;
+	}
+
+
+	.adress-detail1 {
+	    float: none;
+	}
+
+
+	.controler{
+		display: none;
+	}
+
+}
+
+
+@media only screen and (max-width: 400px){
+	.comments {
+    max-width: 250px;
+	}
+}
